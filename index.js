@@ -6,6 +6,7 @@ function theBeatlesPlay (musicians, playinstruments) {
   return x 
 }
 function johnLennonFacts(facts) {
+<<<<<<< HEAD
   var i = 0;
   while(i < facts.length) {
     facts[i] += '!!!'
@@ -34,5 +35,27 @@ function iLoveTheBeatles(number) {
 
 
   
+=======
+  var x = 0
+  while(x < 4);{
+  document.write(x + "facts!!! <br/>" + x++);
+    x++;
+    return(x)
+  }
+}
+johnLennonFacts();
+
+function iLoveTheBeatles(number) {
+  var i = []
+  do{
+    (i + " I love the Beatles! <br/>");
+    i++;}
+    while(i<15);
+}
+   
+
+
+  
+>>>>>>> 3df04b1acbc06ddac25532f3a41b4c0bfb5440f8
   
  
